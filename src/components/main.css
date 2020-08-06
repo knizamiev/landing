@@ -1,0 +1,17 @@
+.logo {
+    width: 1194px;
+    height: 525px;
+    background: linear-gradient(to bottom, #451b5b, #ffffff 30% , #c3d8d9 );
+    position: relative;
+    display: block;
+}
+
+.logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.7;
+}
