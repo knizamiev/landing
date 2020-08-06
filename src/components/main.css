@@ -1,9 +1,19 @@
-.logo {
+body {
+    margin-left: 20%;
+    margin-right: 20%;
     width: 1194px;
+}
+
+
+.logo {
+
     height: 525px;
-    background: linear-gradient(to bottom, #451b5b, #ffffff 30% , #c3d8d9 );
+    background: linear-gradient(to bottom, #451b5b 2%, #ffffff 30% , #c3d8d9 );
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .logo img {
@@ -13,5 +23,29 @@
     transform: translate(-50%, -50%);
     max-height: 100%;
     max-width: 100%;
-    opacity: 0.7;
+    opacity: 0.25;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    border: solid 1px black;
+}
+
+.aboutUs{
+    border: 1px solid red;
+    height: 484px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr) 1fr ;
+
+}
+
+.item{
+    position: static;
+    border: 1px solid blue;
 }
