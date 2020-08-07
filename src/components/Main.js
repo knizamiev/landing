@@ -2,6 +2,7 @@ import React from 'react';
 import './main.css'
 import Logo from '../assets/background-gradient.jpg';
 import Mall from '../assets/mall.jpg';
+import {Img} from 'react-image'
 
 
 
@@ -9,22 +10,7 @@ const Main = () => {
 
     const [state, setState] = React.useState({loaded: false});
 
-    // const Logo = '../assets/background-gradient.jpg';
-    // const Mall = '../assets/mall.jpg';
 
-    // React.useEffect(()=>{
-    //     let imageList = [Logo, Mall];
-    //     console.log(imageList);
-    //     imageList.forEach((image) => {
-    //         new Image().src = image
-    //     });
-    //
-    //     imageList.onload=()=>{
-    //         setState({ imageIsReady: true });
-    //     };
-    //
-    //
-    // },[state]);
 
     const onImageLoaded = () => {
         setState({loaded: true });
@@ -32,11 +18,12 @@ const Main = () => {
 
     const { loaded } = state;
 
-      console.log('loaded ',loaded)
             return (
                 <div>
+                    {      console.log('loaded ',loaded)
+                    }
                     <div className='logo'>
-                        <img src={Logo} on onLoad={onImageLoaded}/>
+                        <Img src={Logo}/>
                         <div className='info'>
                             <p>ps</p>
                             <p>best logo og logos</p>
@@ -45,8 +32,8 @@ const Main = () => {
 
                     <div className='aboutUs'>
 
-                        <img src={Mall} />
-                        <div className='item1'></div>
+                        <Img src={Mall} loader={onImageLoaded} />
+                        <div className='item1' />
                         <div className='item2'>2</div>
                         <div className='item3'>3</div>
                     </div>
