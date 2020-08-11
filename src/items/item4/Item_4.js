@@ -41,8 +41,6 @@ const Todos = styled.div`
     flex-direction:column;
     padding: 0 0 0 0;
     justify-content: center;
-
-        
 `;
 
 const Item = styled('div')`
@@ -71,6 +69,9 @@ const Description = styled.div`
     display:flex;
     flex-direction: column;   
     background-color:blue;
+     &&:last-child{
+    margin-bottom:20px;
+    }
 `;
 
     const Descr_1 = styled.div`
@@ -90,7 +91,7 @@ const Descr_2 = styled.div`
     justify-content: center;
     font-size: 16px;
     font-weight: 500;
-
+    
 `;
 
 
