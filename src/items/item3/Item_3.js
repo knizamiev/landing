@@ -6,7 +6,7 @@ import icon_2 from '../../assets/icon2.png';
 const Joinn = styled.div`
     height: 422px;
     background: rgb(158,126,177);
-    background: linear-gradient(to bottom, rgba(158,126,177,1) 0%, #9e7eb0 98%);
+    background: linear-gradient(to bottom, #451b5b 2%, #ffffff 40% , #c3d8d9 );
     opacity: 0.95;
     display: flex;
     justify-content: center;
