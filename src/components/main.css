@@ -1,12 +1,33 @@
-body {
-    margin: 0 20% 0 20%;
-    width: 1194px;
-    border: 1px solid gray;
-    font-family: 'Roboto', sans-serif;
+@media screen and (max-width: 1920px) {
+    body{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 0 auto;
+        width: 1194px;
+        border: 1px solid gray;
+        font-family: 'Roboto', sans-serif;
+    }
 }
 
 
 
 
+@media screen and (max-width: 1400px) {
+    body{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 0 auto;
+        width: 1194px;
+        border: 1px solid gray;
+        font-family: 'Roboto', sans-serif;
+    }
+}
 
 
+
+/*
+1024 × 768
+1280 × 720
+1366 × 768
+1920 × 1080
+*/

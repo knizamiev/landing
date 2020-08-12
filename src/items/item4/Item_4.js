@@ -68,7 +68,6 @@ const Description = styled.div`
     bottom: 0%;
     display:flex;
     flex-direction: column;   
-    background-color:blue;
      &&:last-child{
     margin-bottom:20px;
     }
