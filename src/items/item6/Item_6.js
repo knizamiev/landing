@@ -12,6 +12,7 @@ import riv from '../../assets/tc_icons/rivera.png';
 
 const Footer = styled.div`
     height: 741px;
+    width: 1194px;
     display: flex;
     justify-content: center;
 `;

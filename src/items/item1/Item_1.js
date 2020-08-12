@@ -3,6 +3,7 @@ import Logo from "../../assets/Slice_2.png";
 import styled from 'styled-components';
 
 const Header = styled.div`
+    width: 1194px;
     height: 525px;
     background: linear-gradient(to bottom, #451b5b 2%, #ffffff 30% , #c3d8d9 );
     display: flex;

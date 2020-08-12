@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 const Promise = styled.div`
     height: 422px;
+    width: 1194px;
     background: linear-gradient(to bottom, #89688e 0%, #866687 98%);
     display: flex;
     justify-content: center;

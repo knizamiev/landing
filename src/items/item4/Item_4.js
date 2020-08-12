@@ -5,6 +5,7 @@ import coma from '../../assets/coma.png';
 
 const Items_todo = styled.div`
     height: 776px;
+    width: 1194px;
     display: flex;
     justify-content: center;
     text-transform: uppercase;

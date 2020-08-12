@@ -6,6 +6,7 @@ import icon1 from '../../assets/icon1.png';
 
 const AboutUs = styled.div`
     height: 320px;
+    width: 1194px;
     display: flex;
     justify-content: center;
     background-color: #ffffff;
